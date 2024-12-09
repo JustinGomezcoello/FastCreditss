@@ -20,23 +20,20 @@
                 FontSize="18"
                 TextColor="#747474"
                 HorizontalOptions="Center"/>
-
-            <!-- Imagen con estilo -->
             <Frame
-                CornerRadius="15"
-                BorderColor="#E0E0E0"
-                BackgroundColor="White"
-                HasShadow="True"
-                Padding="0"
-                Margin="10"
-                HorizontalOptions="Center"
-                VerticalOptions="Center">
+            CornerRadius="15"
+            BorderColor="#E0E0E0"
+            BackgroundColor="White"
+            HasShadow="True"
+            Padding="0"
+            Margin="10"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
                 <Image
-                    Source="cars.jpg"
-                    HeightRequest="200"
-                    Aspect="AspectFill"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center" />
+                Source="cars.jpg"
+                Aspect="AspectFill"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill" />
             </Frame>
 
             <!-- Descripción -->
@@ -59,25 +56,28 @@
             <!-- Lista de beneficios -->
             <VerticalStackLayout Spacing="20" Margin="0,10">
                 <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
-                    <Image Source="checkmark.png" HeightRequest="24" WidthRequest="24" />
                     <Label Text="✓ Procesos rápidos y 100% en línea" TextColor="#333333" FontSize="16" FontAttributes="Bold"/>
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
-                    <Image Source="checkmark.png" HeightRequest="24" WidthRequest="24" />
+                    
                     <Label Text="✓ Tasas competitivas y personalizadas" TextColor="#333333" FontSize="16" FontAttributes="Bold"/>
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
-                    <Image Source="checkmark.png" HeightRequest="24" WidthRequest="24" />
+                    
                     <Label Text="✓ Sin trámites complejos" TextColor="#333333" FontSize="16" FontAttributes="Bold"/>
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
-                    <Image Source="checkmark.png" HeightRequest="24" WidthRequest="24" />
+                    
                     <Label Text="✓ Atención personalizada" TextColor="#333333" FontSize="16" FontAttributes="Bold"/>
                 </HorizontalStackLayout>
             </VerticalStackLayout>
         </VerticalStackLayout>
+
+        
+
+        
     </ScrollView>
 </ContentPage>

@@ -4,12 +4,53 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FastCreditss"
-    Shell.FlyoutBehavior="Disabled"
+    
     Title="FastCreditss">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Fast Credits">
+        <ShellContent
+     Title="Fast Credits"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Autos">
+        <ShellContent
+    Title="Autos"
+    ContentTemplate="{DataTemplate local:PaginaAutos}"
+    Route="PaginaAutos" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Civil">
+        <ShellContent
+        Title="Civil"
+        ContentTemplate="{DataTemplate local:PaginaCivil}"
+        Route="PaginaCivil" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Legal">
+        <ShellContent
+    Title="Consulta Legal"
+    ContentTemplate="{DataTemplate local:PaginaLegal}"
+    Route="PaginaLegal" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="SRI">
+        <ShellContent
+    Title="SRI"
+    ContentTemplate="{DataTemplate local:PaginaSRI}"
+    Route="PaginaSRI" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Solicitd">
+        <ShellContent
+    Title="Solicitud"
+    ContentTemplate="{DataTemplate local:PaginaSolicitud}"
+    Route="PaginaSolicitud" />
+    </FlyoutItem>
+
+
+
 
 </Shell>
